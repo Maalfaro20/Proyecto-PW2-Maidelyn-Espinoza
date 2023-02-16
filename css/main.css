@@ -1,0 +1,190 @@
+/*Paleta de colores */
+:root{
+    /*Nav Colors*/
+    --prim-nav: #050204;
+    --sec-nav:#ffff;
+    --third-nav:#de4d86;  
+    --fourth-nav:#f56476;
+    --fifth-nav:#ff85a1;
+    --sixth-nav:#ff99ac;
+    --seventh-nav:#fbb1bd;
+    --eight-nav:#f9bec7;
+    --ninth-nav:#f7cad0;
+    --tenth-nav:#fae0e4;
+    --light-background:#E5E5E5;
+    --dark-background:#6c757d;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  .divdark{
+    text-align: center;
+    justify-content: center;
+    font-size: auto;
+    position:center;
+    color:var(--sec-nav);
+  }
+  .divlight{
+    text-align: center;
+    justify-content: center;
+    font-size: auto;
+    position:center;
+  }
+  .productos{
+    text-align: center;
+    justify-content: center;
+    font-size: auto;
+  }
+  .videoacercade{
+    text-align: center;
+  }
+  
+  .lightbackg{
+    background-color: var(--light-background);
+    height:130px;
+  }
+  
+  .darkbackg{
+    background-color: var(--dark-background);
+    height: 130px;
+  }
+  
+  .card{
+    max-width: 350px;
+    border: solid 1px var(--tenth-nav);
+    margin: 0.75rem auto;
+    padding: 0.25rem;
+    box-shadow: 1px 1px 3px var(--tenth-nav);
+    border-radius: 2px;
+  }
+  .image img{
+    width: 100%;
+  }
+  .action a{
+    display: inline-block;
+    padding: 0.75rem;
+    border-radius: 27px;
+    text-decoration: none;
+    background-color: var(--eight-nav);
+    color:var(--prim-nav);
+    box-shadow: 1px 1px 3px var(--tenth-nav);
+  }
+  .price{
+    font-size: 1.8rem;
+    font-weight: bolder;
+  }
+  
+  .action{
+    display: flex;
+    padding: 0.25rem;
+    align-items: center;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+  }
+  
+  span{
+    color: var(--fourth-nav);
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  @media screen and (min-width:720px) {
+    /*Tablets Rules*/
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .cardContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 700px;
+        margin: 0px auto;
+    }
+  
+    .videoacercade{
+      text-align: center;
+    }
+  
+    .productos{
+      text-align: center;
+      justify-content: center;
+      font-size: auto;
+    }
+  }
+  @media screen and (min-width:1025px) {
+    /*Desktop Rules*/
+    header nav ul {
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+    .cardContainer{
+        max-width: calc(356px * 4);
+    }
+    .card{
+        margin: 0.5rem;
+    }
+  
+    .videoacercade{
+      text-align: center;
+    }
+  
+    .productos{
+      text-align: center;
+      justify-content: center;
+      font-size: auto;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    /*Extra Large Desktop Rules*/
+    header nav ul {
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+    main{
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+  
+    .videoacercade{
+      text-align: center;
+    }
+  
+    .productos{
+      text-align: center;
+      justify-content: center;
+      font-size: auto;
+    }
+  }
+  
+  #Home{
+    border: #28242c;
+  }
+  
+  #about{
+    border: #6c757d;
+  }
+  #product{
+    border: #6c757d;
+  }
+  #pulseras{
+    border: #6c757d;
+  }
+  #aritos{
+    border: #6c757d;
+  }
+  #anillos{
+    border: #6c757d;
+  }
+  #info{
+    border: #6c757d;
+  }
